@@ -1,5 +1,5 @@
 set :application, 'store'
-set :repo_url, 'git@github.com:excid3/myapp.git'
+set :repo_url, 'git@github.com:nurboja/store.git'
 
 set :deploy_to, '/home/deploy/store'
 

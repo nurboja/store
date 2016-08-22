@@ -57,3 +57,11 @@ gem 'spree_social', github: 'spree-contrib/spree_social', branch: '3-1-stable'
 gem 'spree_slider', github: 'spree-contrib/spree_slider', branch: '3-1-stable'
 gem 'datashift'
 gem 'datashift_spree'
+
+
+gem 'capistrano', '~> 3.1.0'
+gem 'capistrano-bundler', '~> 1.1.2'
+gem 'capistrano-rails', '~> 1.1.1'
+
+# Add this if you're using rbenv
+gem 'capistrano-rbenv', github: "capistrano/rbenv"
